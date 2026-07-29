@@ -1,0 +1,9 @@
+{
+  "permissions": {
+    "allow": [
+      "PowerShell(Add-Type -AssemblyName System.Drawing; $i = [System.Drawing.Image]::FromFile\\(\"c:\\\\Users\\\\visho\\\\Documents\\\\Projects\\\\vishodhan-portfolio\\\\assets\\\\img\\\\vishodhan-krishnan-cropped.jpg\"\\); \"$\\($i.Width\\) x $\\($i.Height\\)\"; $i.Dispose\\(\\))",
+      "PowerShell(node --check \"c:\\\\Users\\\\visho\\\\Documents\\\\Projects\\\\vishodhan-portfolio\\\\assets\\\\js\\\\render.js\")",
+      "PowerShell(if \\($?\\) { \"render.js: syntax OK\" })"
+    ]
+  }
+}

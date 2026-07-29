@@ -1,0 +1,81 @@
+{
+  "heading": "Experience",
+  "roles": [
+    {
+      "title": "AI Engineer",
+      "company": "Rebecca Everlene Trust",
+      "location": "Chicago, IL",
+      "start": "Feb 2026",
+      "end": "Present",
+      "current": true,
+      "tags": ["Multi-agent", "MCP", "Fine-tuning", "PyTorch"],
+      "bullets": [
+        "Cut onboarding effort by building a **multi-agent system with MCP** that validates onboarding submissions and maps OCR-parsed skills for team matching.",
+        "Ran **supervised fine-tuning (SFT)** on LLaMA 3 via HuggingFace across emotion datasets of **100,000+ samples**, lifting macro F1 by **22%** over the base pre-trained model.",
+        "Built a **multi-class emotion classifier in PyTorch**, pushing raw text through a bidirectional LSTM to reach **92% accuracy** across 6 emotion categories on a 50,000-sample dataset."
+      ]
+    },
+    {
+      "title": "Data AI Engineer, Co-op",
+      "company": "Institute for Experiential AI",
+      "location": "Portland, ME",
+      "start": "Jan 2025",
+      "end": "Jun 2025",
+      "current": false,
+      "tags": ["RAG", "AWS Bedrock", "FAISS", "Gemini", "CI/CD"],
+      "bullets": [
+        "Architected an LLM pipeline on **Google Gemini 2.0 Flash** that extracts key fields from 7 EHR PDF report types into JSON and Excel at **95% accuracy**, feeding clinical decision support.",
+        "Deployed a semantic search service exposing REST APIs at **sub-100ms latency** for 1,000+ users with **99.9% uptime**, built on FAISS and monitored through **AWS CloudWatch**.",
+        "Built an **ETL ingestion pipeline** for a RAG Q&A system on **AWS Lambda, OpenSearch, S3 and Bedrock**, with automated retrieval-quality checks that enabled self-service and cut developer support time by **70%**.",
+        "Configured **GitHub Actions CI/CD** workflows to automate model deployments and remove manual codebase integration."
+      ]
+    },
+    {
+      "title": "Senior Software Engineer",
+      "company": "Capgemini Technology Services",
+      "location": "Mumbai, India",
+      "start": "Sep 2021",
+      "end": "Jul 2023",
+      "current": false,
+      "tags": ["SAP HANA", "SQL", "Data warehousing", "BI"],
+      "bullets": [
+        "Reduced **production incidents by 25%** by rearchitecting the SAP/HANA warehouse to remove recurring bottlenecks across critical reporting pipelines.",
+        "Cut user-reported data discrepancies by **20%** by working directly with business users and translating what they described into pipeline fixes.",
+        "Maintained and tuned SAP data pipelines behind **50+ BI dashboards** spanning finance, logistics, and customer service, holding data integrity and SLA compliance.",
+        "Designed **HANA SQL** data models supporting executive reporting and root-cause analysis across 4 business workflows."
+      ]
+    },
+    {
+      "title": "Machine Learning Intern",
+      "company": "Grroom Inc",
+      "location": "Mumbai, India",
+      "start": "Apr 2021",
+      "end": "Jun 2021",
+      "current": false,
+      "tags": ["YOLOv4", "TensorFlow", "Computer vision"],
+      "bullets": [
+        "Curated a 1,000-image training set with bounding-box annotations and balanced classes for outfit generation.",
+        "Trained and evaluated a **YOLOv4** detector in TensorFlow for the company's outfit generator, iterating across 5+ cycles to reach **66% mAP@0.5** over 6 classes."
+      ]
+    }
+  ],
+  "education": {
+    "heading": "Education",
+    "items": [
+      {
+        "degree": "M.S. Information Systems",
+        "school": "Northeastern University",
+        "location": "Boston, MA",
+        "start": "Sep 2023",
+        "end": "Dec 2025"
+      },
+      {
+        "degree": "B.E. Information Technology",
+        "school": "Mumbai University",
+        "location": "Mumbai, India",
+        "start": "Aug 2017",
+        "end": "Jun 2021"
+      }
+    ]
+  }
+}

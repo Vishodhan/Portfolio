@@ -1,0 +1,34 @@
+{
+  "eyebrow": "Built outside of work",
+  "heading": "Projects",
+  "items": [
+    {
+      "name": "Multi-Agent Trading Analysis System",
+      "kicker": "11 agents, one verdict",
+      "description": "An 11-agent modular system with a multi-API pipeline on FastAPI and React that runs a full stock analysis and investment decision in under 3 minutes. Benchmarked 7 LLMs across 35,000+ workflow outputs to see which held up under different market regimes.",
+      "stack": ["FastAPI", "React", "Multi-agent", "LLM benchmarking"],
+      "links": [
+        { "label": "Live demo", "href": "https://www.tradearena.site/", "icon": "open_in_new" },
+        { "label": "Source code", "href": "https://github.com/Vishodhan/gtrade-arena", "icon": "open_in_new" }
+      ]
+    },
+    {
+      "name": "Multi-Agent AI Research Tool with RAG",
+      "kicker": "Web, Arxiv, and your own documents",
+      "description": "A LangGraph-powered multi-agent system that searches the web, Arxiv, and a private document corpus. Apache Airflow automates parsing through Docling, Pinecone holds the embeddings, S3 stores source files, and Pydantic validates every agent output. Containerised with Docker behind a Streamlit UI.",
+      "stack": ["LangGraph", "Pinecone", "Airflow", "Docling", "Pydantic", "Docker", "Streamlit"],
+      "links": [
+        { "label": "Source code", "href": "https://github.com/Vishodhan/Multi-agent-AI-Research-Tool", "icon": "open_in_new" }
+      ]
+    },
+    {
+      "name": "XtractPDF — AI PDF text extractor",
+      "kicker": "Document intelligence, end to end",
+      "description": "A pipeline that pairs Google DocumentAI with PyMuPDF to extract structure from GAIA dataset PDFs, grades the results with an LLM-based evaluation through the OpenAI API, and lands processed output in AWS RDS for downstream access.",
+      "stack": ["Google DocumentAI", "PyMuPDF", "OpenAI API", "AWS RDS"],
+      "links": [
+        { "label": "Source code", "href": "https://github.com/Vishodhan/AI-PDF-text-extractor", "icon": "open_in_new" }
+      ]
+    }
+  ]
+}

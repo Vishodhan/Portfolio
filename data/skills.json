@@ -1,0 +1,38 @@
+{
+  "eyebrow": "Day-to-day toolkit",
+  "heading": "Skills",
+  "groups": [
+    {
+      "name": "Languages",
+      "icon": "terminal",
+      "items": ["Python", "SQL", "JavaScript", "React"]
+    },
+    {
+      "name": "AI & ML",
+      "icon": "neurology",
+      "items": [
+        "LangGraph", "LangChain", "RAG", "LLMs", "Generative AI", "MCP",
+        "PyTorch", "TensorFlow", "HuggingFace", "Pydantic", "FastAPI"
+      ]
+    },
+    {
+      "name": "Cloud & DevOps",
+      "icon": "cloud",
+      "items": [
+        "AWS S3", "AWS EC2", "AWS RDS", "AWS Lambda", "OpenSearch",
+        "CloudWatch", "AWS Bedrock", "Terraform", "Docker",
+        "GitHub Actions", "Apache Airflow"
+      ]
+    },
+    {
+      "name": "Databases",
+      "icon": "database",
+      "items": ["MySQL", "PostgreSQL", "Snowflake", "Pinecone", "FAISS", "OpenSearch", "NoSQL"]
+    },
+    {
+      "name": "Data & Analytics",
+      "icon": "insights",
+      "items": ["Pandas", "NumPy", "Streamlit", "Tableau"]
+    }
+  ]
+}
