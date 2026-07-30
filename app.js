@@ -143,7 +143,7 @@
     },
 
     projects: {
-      eyebrow: 'Built outside of work',
+      eyebrow: 'Projects',
       items: [
         {
           name: 'Multi-Agent Trading Analysis System',
