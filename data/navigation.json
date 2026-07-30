@@ -1,9 +1,0 @@
-{
-  "destinations": [
-    { "id": "home",     "label": "Home",     "icon": "home" },
-    { "id": "work",     "label": "Work",     "icon": "work" },
-    { "id": "projects", "label": "Projects", "icon": "deployed_code" },
-    { "id": "skills",   "label": "Skills",   "icon": "category" },
-    { "id": "contact",  "label": "Contact",  "icon": "alternate_email" }
-  ]
-}
